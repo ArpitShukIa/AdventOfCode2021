@@ -1,25 +1,24 @@
+import kotlin.math.abs
+
 fun main() {
 
-    fun List<String>.countCells(countDiagonals: Boolean): Int {
+    fun countCells(input: List<String>, countDiagonals: Boolean): Int {
         val grid = Array(1000) { Array(1000) { 0 } }
-        map { it.split(Regex("[^0-9]+")).map(String::toInt) }
-            .forEach { (x1, y1, x2, y2) ->
-                when {
-                    x1 == x2 -> (minOf(y1, y2)..maxOf(y1, y2)).forEach { grid[x1][it]++ }
-                    y1 == y2 -> (minOf(x1, x2)..maxOf(x1, x2)).forEach { grid[it][y1]++ }
-                    countDiagonals -> when {
-                        x1 < x2 && y1 < y2 -> (x1..x2).forEach { grid[it][y1 + it - x1]++ }
-                        x1 < x2 -> (x1..x2).forEach { grid[it][y1 - it + x1]++ }
-                        y1 < y2 -> (x2..x1).forEach { grid[it][y2 - it + x2]++ }
-                        else -> (x2..x1).forEach { grid[it][y2 + it - x2]++ }
-                    }
-                }
+        input.forEach {
+            val (x1, y1, x2, y2) = it.split(Regex("[^0-9]+")).map(String::toInt)
+            val (dx, dy) = x2 - x1 to y2 - y1
+            for (i in 0..maxOf(abs(dx), abs(dy))) {
+                val x = x1 + i * (if (dx == 0) 0 else dx / abs(dx))
+                val y = y1 + i * (if (dy == 0) 0 else dy / abs(dy))
+                if (dx == 0 || dy == 0 || countDiagonals)
+                    grid[x][y]++
             }
+        }
         return grid.flatten().count { it >= 2 }
     }
 
-    fun part1(input: List<String>) = input.countCells(false)
-    fun part2(input: List<String>) = input.countCells(true)
+    fun part1(input: List<String>) = countCells(input, false)
+    fun part2(input: List<String>) = countCells(input, true)
 
     val testInput = readInput("Day05_test")
     check(part1(testInput) == 5)
