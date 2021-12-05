@@ -1,17 +1,17 @@
 fun main() {
+
     fun part1(input: List<String>): Int {
         return input
             .map(String::toInt)
-            .windowed(size = 2) { it[1] > it[0] }
-            .count { it }
+            .windowed(size = 2)
+            .count { it[1] > it[0] }
     }
 
     fun part2(input: List<String>): Int {
         return input
             .map(String::toInt)
-            .windowed(size = 3) { it.sum() }
-            .windowed(size = 2) { it[1] > it[0] }
-            .count { it }
+            .windowed(size = 4)
+            .count { it[3] > it[0] }
     }
 
     val testInput = readInput("Day01_test")
