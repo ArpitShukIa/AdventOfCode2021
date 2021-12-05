@@ -1,25 +1,17 @@
-# AdventOfCode2021
+# Advent Of Code 2021
 
-Welcome to the Advent of Code[^aoc] Kotlin project created by [arpitshukia][github] using the [Advent of Code Kotlin Template][template] delivered by JetBrains.
+Welcome to my Advent of Code[^aoc] Kotlin project. Here I will be sharing my solutions for this year's puzzles using [Kotlin](https://kotlinlang.org) language.
 
-In this repository, arpitshukia is about to provide solutions for the puzzles using [Kotlin][kotlin] language.
+### Progress
+| Day | Title                                | Part 1 | Part 2 |
+|-----|--------------------------------------|:------:|:------:|
+| 01  | [Sonar Sweep](src/Day01.kt)          |   🌟   |   🌟   |
+| 02  | [Dive!](src/Day02.kt)                |   🌟   |   🌟   |
+| 03  | [Binary Diagnostic](src/Day03.kt)    |   🌟   |   🌟   | 
+| 04  | [Giant Squid](src/Day04.kt)          |   🌟   |   🌟   | 
+| 05  | [Hydrothermal Venture](src/Day05.kt) |   🌟   |   🌟   | 
 
-If you're stuck with Kotlin-specific questions or anything related to this template, check out the following resources:
 
-- [Kotlin docs][docs]
-- [Kotlin Slack][slack]
-- Template [issue tracker][issues]
-
-
-[^aoc]:
-    [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
-    Every year since then, beginning on the first day of December, a programming puzzle is published every day for twenty-four days.
-    You can solve the puzzle and provide an answer using the language of your choice.
-
-[aoc]: https://adventofcode.com
-[docs]: https://kotlinlang.org/docs/home.html
-[github]: https://github.com/arpitshukia
-[issues]: https://github.com/kotlin-hands-on/advent-of-code-kotlin-template/issues
-[kotlin]: https://kotlinlang.org
-[slack]: https://surveys.jetbrains.com/s3/kotlin-slack-sign-up
-[template]: https://github.com/kotlin-hands-on/advent-of-code-kotlin-template
+[^aoc]: [Advent of Code](https://adventofcode.com) – An annual event of Christmas-oriented programming challenges started December 2015.
+Every year since then, beginning on the first day of December, a programming puzzle is published every day for twenty-four days.
+You can solve the puzzle and provide an answer using the language of your choice.
