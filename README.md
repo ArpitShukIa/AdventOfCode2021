@@ -10,6 +10,7 @@ Welcome to my Advent of Code[^aoc] Kotlin project. Here I will be sharing my sol
 | 03  | [Binary Diagnostic](src/Day03.kt)    |   🌟   |   🌟   | 
 | 04  | [Giant Squid](src/Day04.kt)          |   🌟   |   🌟   | 
 | 05  | [Hydrothermal Venture](src/Day05.kt) |   🌟   |   🌟   | 
+| 06  | [Lanternfish](src/Day06.kt)          |   🌟   |   🌟   |
 
 
 [^aoc]: [Advent of Code](https://adventofcode.com) – An annual event of Christmas-oriented programming challenges started December 2015.
