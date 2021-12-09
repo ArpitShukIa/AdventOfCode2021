@@ -13,6 +13,7 @@ Welcome to my Advent of Code[^aoc] Kotlin project. Here I will be sharing my sol
 | 06  | [Lanternfish](src/Day06.kt)             |   🌟   |   🌟   |
 | 07  | [The Treachery of Whales](src/Day07.kt) |   🌟   |   🌟   |
 | 08  | [Seven Segment Search](src/Day08.kt)    |   🌟   |   🌟   |
+| 09  | [Smoke Basin](src/Day09.kt)             |   🌟   |   🌟   |
 
 
 [^aoc]: [Advent of Code](https://adventofcode.com) – An annual event of Christmas-oriented programming challenges started December 2015.
