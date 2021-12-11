@@ -15,6 +15,7 @@ Welcome to my Advent of Code[^aoc] Kotlin project. Here I will be sharing my sol
 | 08  | [Seven Segment Search](src/Day08.kt)    |   🌟   |   🌟   |
 | 09  | [Smoke Basin](src/Day09.kt)             |   🌟   |   🌟   |
 | 10  | [Syntax Scoring](src/Day10.kt)          |   🌟   |   🌟   |
+| 11  | [Dumbo Octopus](src/Day11.kt)           |   🌟   |   🌟   |
 
 
 [^aoc]: [Advent of Code](https://adventofcode.com) – An annual event of Christmas-oriented programming challenges started December 2015.
