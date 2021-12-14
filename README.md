@@ -18,6 +18,7 @@ Welcome to my Advent of Code[^aoc] Kotlin project. Here I will be sharing my sol
 | 11  | [Dumbo Octopus](src/Day11.kt)           |   🌟   |   🌟   |
 | 12  | [Passage Pathing](src/Day12.kt)         |   🌟   |   🌟   |
 | 13  | [Transparent Origami](src/Day13.kt)     |   🌟   |   🌟   |
+| 14  | [Extended Polymerization](src/Day14.kt) |   🌟   |   🌟   |
 
 
 [^aoc]: [Advent of Code](https://adventofcode.com) – An annual event of Christmas-oriented programming challenges started December 2015.
