@@ -22,6 +22,7 @@ Welcome to my Advent of Code[^aoc] Kotlin project. Here I will be sharing my sol
 | 15  | [Chiton](src/Day15.kt)                  |   🌟   |   🌟   |
 | 16  | [Packet Decoder](src/Day16.kt)          |   🌟   |   🌟   |
 | 17  | [Trick Shot](src/Day17.kt)              |   🌟   |   🌟   |
+| 18  | [Snailfish](src/Day18.kt)               |   🌟   |   🌟   |
 
 
 [^aoc]: [Advent of Code](https://adventofcode.com) – An annual event of Christmas-oriented programming challenges started December 2015.
