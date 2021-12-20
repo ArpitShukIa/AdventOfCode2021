@@ -24,6 +24,7 @@ Welcome to my Advent of Code[^aoc] Kotlin project. Here I will be sharing my sol
 | 17  | [Trick Shot](src/Day17.kt)              |   🌟   |   🌟   |
 | 18  | [Snailfish](src/Day18.kt)               |   🌟   |   🌟   |
 | 19  | [Beacon Scanner](src/Day19.kt)          |   🌟   |   🌟   |
+| 20  | [Trench Map](src/Day20.kt)              |   🌟   |   🌟   |
 
 
 [^aoc]: [Advent of Code](https://adventofcode.com) – An annual event of Christmas-oriented programming challenges started December 2015.
