@@ -28,6 +28,7 @@ Welcome to my Advent of Code[^aoc] Kotlin project. Here I will be sharing my sol
 | 21  | [Dirac Dice](src/Day21.kt)              |   🌟   |   🌟   |
 | 22  | [Reactor Reboot](src/Day22.kt)          |   🌟   |   🌟   |
 | 23  | [Amphipod](src/Day23.kt)                |   🌟   |   🌟   |
+| 24  | [Arithmetic Logic Unit](src/Day24.kt)   |   🌟   |   🌟   |
 
 
 [^aoc]: [Advent of Code](https://adventofcode.com) – An annual event of Christmas-oriented programming challenges started December 2015.
